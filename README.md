@@ -18,5 +18,5 @@
 
   1. Efficient GAN-Based Anomaly Detection: This is a CS222 project, which detects abnormal data from a large amount of sequential data. All is available, but not recommended due to its poor dataset and our own model's bad performance.
   2. Unsupervised Anomaly Detection via Variational Auto-Encoderfor Seasonal KPIs in Web Applications(<https://arxiv.org/pdf/1802.03903v1.pdf>):
-  	a. Previous problems: Existing anomaly detection algorithms suffer from the hassle of algorithm picking/parameter tuning, heavy reliance on labels, unsatisfying performance, and/or lack of theoretical foundations.
+    a. Previous problems: Existing anomaly detection algorithms suffer from the hassle of algorithm picking/parameter tuning, heavy reliance on labels, unsatisfying performance, and/or lack of theoretical foundations.
     b. Proposed method: Donut, an unsupervised anomaly detection algorithm based on Variational Auto-Encoder (a representativedeep generative model) with solid theoretical explanation.
