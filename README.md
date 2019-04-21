@@ -14,13 +14,32 @@
 
 以下是可供研究的大方向及其中部分有关工作
 
-#### Anomaly Detection:
+#### Unsupevised Anomaly Detection:
 
-1. Efficient GAN-Based Anomaly Detection: This is a CS222 project, which detects abnormal data from a large amount of sequential data. All is available, but not recommended due to its poor dataset and our own model's bad performance.
-
-
-2. Unsupervised Anomaly Detection via Variational Auto-Encoderfor Seasonal KPIs in Web Applications(<https://arxiv.org/pdf/1802.03903v1.pdf>): 
+1. Unsupervised Anomaly Detection via Variational Auto-Encoderfor Seasonal KPIs in Web Applications (<https://paperswithcode.com/paper/unsupervised-anomaly-detection-via#code>): 
 
    a. Previous problems: Existing anomaly detection algorithms suffer from the hassle of algorithm picking/parameter tuning, heavy reliance on labels, unsatisfying performance, and/or lack of theoretical foundations.
 
    b. Proposed method: Donut, an unsupervised anomaly detection algorithm based on Variational Auto-Encoder (a representativedeep generative model) with solid theoretical explanation.
+
+2. DOPING: Generative Data Augmentation for Unsupervised Anomaly Detection with GAN (<https://paperswithcode.com/paper/doping-generative-data-augmentation-for#code>) 
+
+   a. The first data augmentation technique focused on improving performance in unsupervised anomaly detection
+
+#### Group Anomaly Detection
+
+1. <https://paperswithcode.com/paper/group-anomaly-detection-using-deep-generative>. Its goal is to detect anomalous collections of individual data points.
+2. 如果论文中没有太多相关的，简单看下即可，与主题不是很相符。
+
+#### Anomaly Detection With Large Dataset (大规模数据处理)
+
+1. Expected Similarity Estimation for Large-Scale Batch and Streaming Anomaly Detection (<https://paperswithcode.com/paper/expected-similarity-estimation-for-large>). 
+
+#### Semi-Supervised Anomaly Detection
+
+1. GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training (<https://paperswithcode.com/paper/ganomaly-semi-supervised-anomaly-detection>): 非常契合咱们的主题，建议细看。
+
+#### 中期前任务：
+
+1. 把这5篇都看了，总结一下作为survey，即可撰写报告。最后应该是4个md（4个类别），记录重要内容即可。
+2. 截止日期：**4.28**
