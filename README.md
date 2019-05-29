@@ -43,3 +43,32 @@
 
 1. 把这5篇都看了，总结一下作为survey，即可撰写报告。最后应该是4个md（4个类别），记录重要内容即可。
 2. 截止日期：**4.28**
+
+## 实验过程及相关分析
+
+1. 我们利用传统的方法（KNN）与最新的方法（SO_GAAL，MO_GAAL）作为baseline对Yahoo-S5数据集进行异常检测。Donut+DOPING作为我们的state-of-art实验。
+
+2. 我们进一步讨论在异常检测中，数据量，监督/无监督，数据特性等因子对实验结果的影响，并且用实验加以验证。
+
+3. 详细实验结过程在PPT/报告中陈述。我们在下面列出我们的实验结果。虽然我们的实验结果没有获取特别高的数值，但是对于数据与各种方法的深入探究使得我们受益匪浅。我们也是为数不多（第二个）在这个数据集上进行实验的group。
+
+   ![results](/home/jerrry/Docments/ComputerNetwork/FinancialCrisisAL/presentation/results.png)
+
+## 代码使用
+
+1. 可以通过调用我们的代码对我们的实验结果进行验证。或修改代码进行你自己的实验
+
+2. 使用前提：请先安装下列工具：
+
+   1. PyOD：https://pyod.readthedocs.io/en/latest/install.html
+   2. Donut：https://github.com/haowen-xu/donut
+   3. matplotlib，sklearn等基础工具
+
+3. 使用代码，可以直接
+
+   ```python
+   python main.py
+   python ourTest.py
+   ```
+
+4. 为了更好使用代码，请仔细阅读代码中的注释。由于较短时间内需要进行较多的实验，我们没有将代码分文件处理（各个实验有太多重复部分）。故而，合理注释或去除注释符号即可复现我们的结果。
