@@ -52,7 +52,7 @@
 
 3. 详细实验结过程在PPT/报告中陈述。我们在下面列出我们的实验结果。虽然我们的实验结果没有获取特别高的数值，但是对于数据与各种方法的深入探究使得我们受益匪浅。我们也是为数不多（第二个）在这个数据集上进行实验的group。
 
-   ![results](/home/jerrry/Docments/ComputerNetwork/FinancialCrisisAL/presentation/results.png)
+   ![results](results.png)
 
 ## 代码使用
 
